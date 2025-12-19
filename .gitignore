@@ -1,0 +1,77 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+ENV/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files and cache
+temp/
+*.tmp
+*.cache
+.pytest_cache/
+.mypy_cache/
+
+# Database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# UV cache
+.uv-cache/
+
+# Project specific
+research_reports/
+.claude/
+lib/Windows/
+requires.md
+prompts.md
+WARP.md
+CLAUDE.md
+
+# Test files
+test_*.html
+test_*.py
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Keep important docs
+!docs/*.md
+!docs/EXPORT_*.md
+!docs/IMPLEMENTATION_*.md
+!docs/INSTALL_*.md
+!docs/PDF_*.md
+!docs/PLAYWRIGHT_*.md
+!docs/PPTX_*.md
+!docs/QUICK_START*.md
+!docs/RESTART_*.md
+!docs/RESTORATION_*.md
+!docs/HTML_*.md
